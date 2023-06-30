@@ -581,6 +581,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .mb-6{
   margin-bottom: 1.5rem;
 }
@@ -613,6 +621,14 @@ video {
   display: none;
 }
 
+.h-\[130px\]{
+  height: 130px;
+}
+
+.h-\[280px\]{
+  height: 280px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -627,10 +643,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[4px\]{
-  height: 4px;
 }
 
 .w-11\/12{
@@ -662,8 +674,20 @@ video {
   flex-grow: 1;
 }
 
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
+.basis-1\/3{
+  flex-basis: 33.333333%;
+}
+
 .basis-1\/6{
   flex-basis: 16.666667%;
+}
+
+.basis-2\/3{
+  flex-basis: 66.666667%;
 }
 
 .basis-2\/6{
@@ -686,6 +710,10 @@ video {
   flex-direction: row;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
 }
@@ -702,8 +730,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .gap-8{
   gap: 2rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .bg-gray-900{
@@ -733,12 +769,20 @@ video {
   background-image: url('./img/featured-mug-02.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/product-coffee-01\.jpeg\'\)\]{
-  background-image: url('./img/product-coffee-01.jpeg');
+.bg-\[url\(\'\.\/img\/magazine-image-01\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-01.jpeg');
 }
 
-.bg-\[url\(\'\.\/img\/slider-background\.jpeg\'\)\]{
-  background-image: url('./img/slider-background.jpeg');
+.bg-\[url\(\'\.\/img\/magazine-image-02\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/magazine-image-03\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-01\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-01.jpeg');
 }
 
 .bg-\[url\(\'\.\/img\/product-coffee-02\.jpeg\'\)\]{
@@ -747,10 +791,6 @@ video {
 
 .bg-\[url\(\'\.\/img\/product-coffee-03\.jpeg\'\)\]{
   background-image: url('./img/product-coffee-03.jpeg');
-}
-
-.bg-\[url\(\'\.\/img\/product-coffee-04\.jpeg\'\)\]{
-  background-image: url('./img/product-coffee-04.jpeg');
 }
 
 .bg-\[url\(\'\.\/img\/product-coffee-05\.jpeg\'\)\]{
@@ -771,6 +811,10 @@ video {
 
 .bg-\[url\(\'\.\/img\/product-coffee-09\.jpeg\'\)\]{
   background-image: url('./img/product-coffee-09.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/slider-background\.jpeg\'\)\]{
+  background-image: url('./img/slider-background.jpeg');
 }
 
 .bg-cover{
@@ -824,6 +868,10 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pl-8{
+  padding-left: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -840,6 +888,10 @@ video {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[32px\]{
+  font-size: 32px;
 }
 
 .text-base{
@@ -860,6 +912,15 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .font-medium{
@@ -884,6 +945,10 @@ video {
 
 .tracking-wider{
   letter-spacing: 0.05em;
+}
+
+.tracking-widest{
+  letter-spacing: 0.1em;
 }
 
 .text-coffee-400{
@@ -1153,6 +1218,20 @@ video {
   background-color: rgb(200 159 148 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 480px){
+  .xs\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .xs\:h-\[200px\]{
+    height: 200px;
+  }
+
+  .xs\:gap-5{
+    gap: 1.25rem;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:h-\[540px\]{
     height: 540px;
@@ -1170,13 +1249,42 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:h-\[130px\]{
+    height: 130px;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:flex-col{
+    flex-direction: column;
   }
 
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 }
 
@@ -1203,6 +1311,10 @@ video {
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
   }
 
   .lg\:items-center{
@@ -1232,8 +1344,16 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:w-\[65\%\]{
+    width: 65%;
+  }
+
   .xl\:px-96{
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .xl\:pl-14{
+    padding-left: 3.5rem;
   }
 }
