@@ -32,5 +32,9 @@
 }
 
 .ct-subheadline-label{
-    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
+    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+}
+
+.ct-button{
+    @apply text-center hidden group-hover:block group-hover:animate-slideUp mx-4 tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
 }
