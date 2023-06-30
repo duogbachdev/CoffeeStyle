@@ -564,6 +564,15 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -604,6 +613,10 @@ video {
   display: none;
 }
 
+.h-\[380px\]{
+  height: 380px;
+}
+
 .h-\[400px\]{
   height: 400px;
 }
@@ -614,6 +627,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[4px\]{
+  height: 4px;
 }
 
 .w-11\/12{
@@ -708,32 +725,52 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\.\/img\/slider-background\.jpeg\'\)\]{
-  background-image: url('./img/slider-background.jpeg');
-}
-
-.bg-\[url\(\'https\:\/\/assets\.website-files\.com\/612c981ffe18b2ce6af3c072\/612c981ffe18b224ccf3c138_liana-mikah-698524-unsplash\.jpg\'\)\]{
-  background-image: url('https://assets.website-files.com/612c981ffe18b2ce6af3c072/612c981ffe18b224ccf3c138_liana-mikah-698524-unsplash.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/assets\.website-files\.com\/612c981ffe18b2ce6af3c072\/612c981ffe18b273a9f3c11c_jakub-dziubak-394720-unsplash\.jpg\'\)\]{
-  background-image: url('https://assets.website-files.com/612c981ffe18b2ce6af3c072/612c981ffe18b273a9f3c11c_jakub-dziubak-394720-unsplash.jpg');
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'\.\/img\/\'\)\]{
-  background-image: url('./img/');
-}
-
 .bg-\[url\(\'\.\/img\/featured-mug-01\.jpg\'\)\]{
   background-image: url('./img/featured-mug-01.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/featured-mug-02\.jpg\'\)\]{
   background-image: url('./img/featured-mug-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-01\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/slider-background\.jpeg\'\)\]{
+  background-image: url('./img/slider-background.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-02\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-03\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-04\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-04.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-05\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-05.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-06\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-06.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-07\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-07.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-08\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-08.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-09\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-09.jpeg');
 }
 
 .bg-cover{
@@ -1133,6 +1170,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1158,6 +1199,10 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
