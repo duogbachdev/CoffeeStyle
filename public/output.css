@@ -536,6 +536,10 @@ video {
   bottom: 1rem;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
@@ -567,6 +571,11 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-16{
@@ -629,6 +638,10 @@ video {
   height: 280px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -651,6 +664,10 @@ video {
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -730,16 +747,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .bg-gray-900{
@@ -761,12 +778,20 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
+.bg-\[url\(\'\.\/img\/bg-parallax-01\.jpeg\'\)\]{
+  background-image: url('./img/bg-parallax-01.jpeg');
+}
+
 .bg-\[url\(\'\.\/img\/featured-mug-01\.jpg\'\)\]{
   background-image: url('./img/featured-mug-01.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/featured-mug-02\.jpg\'\)\]{
   background-image: url('./img/featured-mug-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-01\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-01.jpeg');
 }
 
 .bg-\[url\(\'\.\/img\/magazine-image-01\.jpeg\'\)\]{
@@ -817,8 +842,20 @@ video {
   background-image: url('./img/slider-background.jpeg');
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-story-03\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-02\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-02.jpeg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -872,6 +909,10 @@ video {
   padding-left: 2rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -917,6 +958,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[13px\]{
+  font-size: 13px;
 }
 
 .font-bold{
@@ -1108,7 +1153,7 @@ video {
 }
 
 .ct-button:hover{
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.95;
 }
 
 .group:hover .ct-button{
@@ -1297,6 +1342,10 @@ video {
     display: none;
   }
 
+  .lg\:h-\[400px\]{
+    height: 400px;
+  }
+
   .lg\:w-\[65\%\]{
     width: 65%;
   }
@@ -1311,10 +1360,6 @@ video {
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:flex-row{
-    flex-direction: row;
   }
 
   .lg\:items-center{

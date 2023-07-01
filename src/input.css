@@ -36,5 +36,5 @@
 }
 
 .ct-button{
-    @apply text-center hidden group-hover:block group-hover:animate-slideUp mx-4 tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
+    @apply text-center hidden group-hover:block group-hover:animate-slideUp mx-4 tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95;
 }
